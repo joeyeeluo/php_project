@@ -4,3 +4,4 @@ use Project\Start\Tools;
  $tools = new Tools;
 (new Tools)->hello();
 //Tools::hello();
+//Tools::hello();
