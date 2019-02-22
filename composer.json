@@ -1,0 +1,21 @@
+{
+    "name": "admin/php_project",
+    "description": "我的project",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "luozhuoyu",
+            "email": "1124039238@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+		"php": ">=7.0.0"
+	},
+	"autoload": {
+		"psr-4":{
+			"Project\\Start\\" :"src/Project/Start"
+		}
+	}
+}
